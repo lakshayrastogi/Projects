@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/sonController.cs">
+    <Files>
+      <File FileName="Assets/sonController.cs" Line="111" Column="41" />
+      <File FileName="Assets/wifeController.cs" Line="90" Column="1" />
+      <File FileName="Assets/cameraController.cs" Line="5" Column="1" />
+      <File FileName="Assets/fatherController.cs" Line="7" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: d791e65c528424380b131b0b6d4815bb
+timeCreated: 1453836184
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f00000030000000310000003200000033000000340000003500000036000000
+  assetHash:
+    serializedVersion: 2
+    Hash: e35c5fd3582b2d7869ae699f93cf12d9
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.31645995, y: 0.14775272, z: 0.47176695}
+      lookAt: {x: 0.08820287, y: 0.049731042, z: 0.17395294}
+      up: {x: -0.15375376, y: 0.96753114, z: -0.20060723}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Drinking glass
+    100002: Drinking glass 1
+    100004: Drinking glass 2
+    100006: Drinking glass 3
+    100008: Drinking glass 4
+    100010: Drinking glass 5
+    100012: glass_quarter
+    100014: glass_quarter 1
+    100016: glass_quarter 10
+    100018: glass_quarter 11
+    100020: glass_quarter 12
+    100022: glass_quarter 13
+    100024: glass_quarter 14
+    100026: glass_quarter 15
+    100028: glass_quarter 16
+    100030: glass_quarter 17
+    100032: glass_quarter 18
+    100034: glass_quarter 19
+    100036: glass_quarter 2
+    100038: glass_quarter 20
+    100040: glass_quarter 21
+    100042: glass_quarter 22
+    100044: glass_quarter 23
+    100046: glass_quarter 3
+    100048: glass_quarter 4
+    100050: glass_quarter 5
+    100052: glass_quarter 6
+    100054: glass_quarter 7
+    100056: glass_quarter 8
+    100058: glass_quarter 9
+    100060: //RootNode
+    400000: Drinking glass
+    400002: Drinking glass 1
+    400004: Drinking glass 2
+    400006: Drinking glass 3
+    400008: Drinking glass 4
+    400010: Drinking glass 5
+    400012: glass_quarter
+    400014: glass_quarter 1
+    400016: glass_quarter 10
+    400018: glass_quarter 11
+    400020: glass_quarter 12
+    400022: glass_quarter 13
+    400024: glass_quarter 14
+    400026: glass_quarter 15
+    400028: glass_quarter 16
+    400030: glass_quarter 17
+    400032: glass_quarter 18
+    400034: glass_quarter 19
+    400036: glass_quarter 2
+    400038: glass_quarter 20
+    400040: glass_quarter 21
+    400042: glass_quarter 22
+    400044: glass_quarter 23
+    400046: glass_quarter 3
+    400048: glass_quarter 4
+    400050: glass_quarter 5
+    400052: glass_quarter 6
+    400054: glass_quarter 7
+    400056: glass_quarter 8
+    400058: glass_quarter 9
+    400060: //RootNode
+    2300000: glass_quarter
+    2300002: glass_quarter 1
+    2300004: glass_quarter 10
+    2300006: glass_quarter 11
+    2300008: glass_quarter 12
+    2300010: glass_quarter 13
+    2300012: glass_quarter 14
+    2300014: glass_quarter 15
+    2300016: glass_quarter 16
+    2300018: glass_quarter 17
+    2300020: glass_quarter 18
+    2300022: glass_quarter 19
+    2300024: glass_quarter 2
+    2300026: glass_quarter 20
+    2300028: glass_quarter 21
+    2300030: glass_quarter 22
+    2300032: glass_quarter 23
+    2300034: glass_quarter 3
+    2300036: glass_quarter 4
+    2300038: glass_quarter 5
+    2300040: glass_quarter 6
+    2300042: glass_quarter 7
+    2300044: glass_quarter 8
+    2300046: glass_quarter 9
+    3300000: glass_quarter
+    3300002: glass_quarter 1
+    3300004: glass_quarter 10
+    3300006: glass_quarter 11
+    3300008: glass_quarter 12
+    3300010: glass_quarter 13
+    3300012: glass_quarter 14
+    3300014: glass_quarter 15
+    3300016: glass_quarter 16
+    3300018: glass_quarter 17
+    3300020: glass_quarter 18
+    3300022: glass_quarter 19
+    3300024: glass_quarter 2
+    3300026: glass_quarter 20
+    3300028: glass_quarter 21
+    3300030: glass_quarter 22
+    3300032: glass_quarter 23
+    3300034: glass_quarter 3
+    3300036: glass_quarter 4
+    3300038: glass_quarter 5
+    3300040: glass_quarter 6
+    3300042: glass_quarter 7
+    3300044: glass_quarter 8
+    3300046: glass_quarter 9
+    4300000: Mesh glass_quarter
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

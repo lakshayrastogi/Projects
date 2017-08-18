@@ -1,0 +1,109 @@
+<meta charset="UTF-8">
+<html>
+
+<script id="vertex-shader" type="x-shader/x-vertex">
+//vertex shader for gouraud shading - implementation mostly from textbook
+
+attribute vec3 vPosition;
+attribute vec3 vNormal;
+/*
+attribute vec4 vPosition;
+attribute vec4 vNormal;
+*/
+
+attribute vec2 vTexCoord;
+varying vec2 fTexCoord;
+
+varying vec3 L, E, N;
+
+uniform mat4 modelViewMatrix, projectionMatrix;
+uniform vec4 lightPosition;
+
+
+void main() 
+{
+	fTexCoord = vTexCoord;
+	vec3 pos = (modelViewMatrix * vec4(vPosition,1.0)).xyz;
+	//vec3 pos = (modelViewMatrix * vPosition).xyz;
+	vec3 light = lightPosition.xyz;
+	L = normalize(light - pos);
+	E = normalize(-pos);
+	N = normalize(-modelViewMatrix * vec4(vNormal, 0.0)).xyz;
+	//N = normalize(-modelViewMatrix * vec4(vNormal.xyz, 0.0)).xyz;
+	gl_Position = projectionMatrix * modelViewMatrix * vec4(vPosition,1.0);
+	//gl_Position = projectionMatrix * modelViewMatrix * vPosition;
+}
+
+</script>
+
+<script id="fragment-shader" type="x-shader/x-fragment">
+//fragment shader for phong shading - implementation mostly from textbook
+
+precision mediump float;
+
+varying vec2 fTexCoord;
+uniform sampler2D texture;
+
+varying vec3 L, E, N;
+
+uniform vec4 fAmbientProduct, fDiffuseProduct, fSpecularProduct;
+uniform float fShininess;
+uniform bool phong;
+uniform bool texMap;
+
+void main()
+{
+	if (phong) {
+		vec4 fColor;
+		vec3 H = normalize(L + E);
+		vec4 ambient = fAmbientProduct;
+		float kd = max(dot(L, N), 0.0);
+		vec4 diffuse = kd * fDiffuseProduct;
+		float ks = pow(max(dot(N, H), 0.0), fShininess);
+		vec4 specular = ks * fSpecularProduct;
+		
+		if (dot(L,N) < 0.0) {
+			specular = vec4(0.0, 0.0, 0.0, 1.0);
+		}
+		
+		fColor = ambient + diffuse + specular;
+		fColor.a  = 1.0;
+		gl_FragColor = fColor;
+	}
+	else if (texMap) {
+		gl_FragColor = texture2D(texture, fTexCoord);
+	}
+}
+</script>
+<title>SPACE RUNNER</title>
+<link rel="stylesheet" href="space_runner.css" type="text/css" media="screen">
+</head>
+<body>
+	<div id="wrapper" class="wrapper">
+		<div id="menu" class="main">
+			<div id="main">
+				<h1>SPACE RUNNER</h1>
+				<ul>
+					<li><a href="#" class="button play">Start Game</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--<body background = "Images/Yo.png">-->
+		<canvas id="gl-canvas" width="960" height="540">
+			Oops ... your browser doesn't support the HTML5 canvas element
+		</canvas>
+		<div id="score" class="current">
+			Score: 0
+		</div>
+		<div id="game-over">
+				<h2>Your score was: <span id="score"></span>.</h2>
+				<a href="javascript:void(0)" class="button restart">Play Again</a>
+		</div>
+	</div>
+<body>
+<script type="text/javascript" src="./Common/webgl-utils.js"></script>
+<script type="text/javascript" src="./Common/initShaders.js"></script>
+<script type="text/javascript" src="./Common/MV.js"></script>
+<script type="text/javascript" src="space_runner.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+*, *:before, *:after {
+	
+}
+
+@font-face {
+    font-family: SpaceFont;
+    src: url(Font/spaceAge.ttf);
+}
+
+#wrapper.wrapper
+{
+	width: 960;
+	height: 540;
+	background:url(Images/spaceBack.jpg); 
+	background-repeat:no-repeat;
+}
+
+#menu.main{
+	width: 960;
+	height: 540;
+}
+#main
+{
+	width:960;
+	height: 540;
+	border-width: 3px;
+	border-color: blue;
+	border-style: groove;
+	border-radius: 1px;
+	text-align: center;
+}
+#main h1 {
+	font-size: 65px;
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	text-align: center;
+	margin-left: 35;
+	font-family: SpaceFont;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+a:link
+{
+	text-align: center;
+	text-decoration: none;
+
+}
+
+.button{
+	margin: 0 auto;
+	display: block;
+	width: 150px;
+	margin: 0 auto;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #0066FF;
+	color: white;
+	font-weight: bold;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	background-color: #0033FF;
+	background-image: -webkit-linear-gradient(bottom, #0033FF 0%, #000099 100%);
+	background-image: linear-gradient(to bottom, #0033FF 0%, #000099 100%);
+	border-radius: 5px;
+	font-family: SpaceFont;
+}
+.button:hover{
+	background-color: #000099;
+	background-image: -webkit-linear-gradient(bottom, #000099 0%, #0033FF 100%);
+	background-image: 			linear-gradient(to bottom, #000099 0%, #0033FF 100%);
+}
+
+
+#gl-canvas
+{
+
+}
+
+#score
+{
+	position: absolute;
+	display: none;
+	width: 150px;
+	height: 30px;
+	left: 30px;
+	top: 20px;
+	background-color: black;
+	color: white;
+	font-size: 20;
+	font-family: Courier New;
+}
+
+#game-over
+{
+	display: none;
+	text-align: center;
+	padding-top: 92px;
+	z-index: 1;
+	width: 600px;
+	height: 360px;
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+}
