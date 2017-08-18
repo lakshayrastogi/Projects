@@ -1,0 +1,30 @@
+% Example 1
+query(actorstarredinmovie(robert_pattinson,twilight)).
+query(directordirectedmovie(catherine_hardwicke,twilight)).
+
+query(actorworkedwithdirector(robert_pattinson,catherine_hardwicke)).
+
+% Example 3
+query(directordirectedmovie(danny_boyle,movie_trainspotting)).
+query(actorworkedwithdirector(ewan_mcgregor,danny_boyle)).
+
+query(actorstarredinmovie(ewan_mcgregor,movie_trainspotting)).
+query(actorstarredinmovie(danny_boyle,trainspotting)). % incorrect tuple in KB
+
+% Example 2 and 4
+query(actorworkedwithdirector(morgan_freeman,clint_eastwood)).
+query(actorstarredinmovie(clint_eastwood,million_dollar_baby)).
+query(directordirectedmovie(clint_eastwood,million_dollar_baby)).
+query(actorstarredinmovie(hilary_swank,million_dollar_baby)).
+
+query(actorworkedwithdirector(hilary_swank,clint_eastwood)).
+query(actorstarredinmovie(morgan_freeman,million_dollar_baby)).
+
+% incorrect example 'cause movie Elysium does not exist to begin with
+query(actorworkedwithdirector(sharlto_copley,neill_blomkamp)).
+query(actorworkedwithdirector(wagner_moura,neill_blomkamp)).
+query(actorworkedwithdirector(matt_damon,neill_blomkamp)).
+query(actorworkedwithdirector(jodie_foster,neill_blomkamp)).
+
+query(movie(elysium)).
+
