@@ -3,6 +3,11 @@
 _Please note that only headings marked with (I) were individual contributions._
 _Also, only languages used by development done by me are listed._
 
+## OPD Research Work (I)
+
+This contains the research work done under Professor Guy on Open Probabilistic databases and querying systems.
+Languages used include Python.
+
 ## Tonite and BrainTreeTry
 
 Tonite contains the main source code for an iOS app that included a sophisticated login system, a payment gateway and several different views with navigation.
