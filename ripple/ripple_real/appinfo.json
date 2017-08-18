@@ -1,0 +1,37 @@
+{
+    "uuid": "77de8318-a909-4ecf-bad2-20ede942d820",
+    "shortName": "ripple_real",
+    "longName": "ripple_real",
+    "companyName": "Ochr",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+	"watchface": true
+    },
+    "appKeys": {
+	"KEY_MAKE_NEW_GESTURE": 0,
+	"KEY_NEW_GESTURE_ID": 1,
+	"KEY_NEW_GESTURE_DATA": 2,
+	"KEY_NEW_GESTURE_DATA_SIZE": 3,
+	"KEY_GESTURE": 4,
+	"KEY_OLD_GESTURE_ID": 5,
+	"KEY_OLD_GESTURE_DATA": 6,
+	"KEY_OLD_GESTURE_DATA_SIZE": 7,
+	"KEY_ON_START": 8
+    },
+    "resources": {
+	"media": [
+	    {
+		"type": "font",
+		"name": "FONT_PERFECT_DOS_48",
+		"file": "perfect-dos-vga.ttf",
+		"compatibility":"2.7"
+	    },
+	    {
+		"type": "png",
+		"name": "BACKGROUND",
+		"file": "background.png"
+	    }
+	]
+    }
+}
