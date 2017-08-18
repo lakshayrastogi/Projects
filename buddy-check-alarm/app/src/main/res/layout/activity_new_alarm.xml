@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timePicker"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Turn Alarm On"
+        android:width="200dp"
+        android:id="@+id/alarm_on"
+        android:background="#c6b3d1"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/timePicker"
+        android:layout_alignStart="@+id/alarm_off" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Turn Alarm Off"
+        android:width="200dp"
+        android:id="@+id/alarm_off"
+        android:background="#c6b3d1"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:layout_below="@+id/alarm_on"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Status"
+        android:id="@+id/alarm_status"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/alarm_off"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

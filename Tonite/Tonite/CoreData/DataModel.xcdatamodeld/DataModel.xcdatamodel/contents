@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6751" systemVersion="14C109" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Event" representedClassName="Event" syncable="YES">
+        <attribute name="category_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="event_address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="event_date_starttime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="event_desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="event_endtime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="event_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="event_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icon_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ticket_price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venue_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="website" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MainCategory" representedClassName="MainCategory" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Photo" representedClassName="Photo" syncable="YES">
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="event_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumb_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TextEntry" representedClassName="TextEntry" syncable="YES">
+        <attribute name="category_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text_entry_content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text_entry_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text_entry_title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Ticket" representedClassName="Ticket" syncable="YES">
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ticket_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ticket_type_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TicketType" representedClassName="Ticket" syncable="YES">
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="event_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ticket_price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ticket_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ticket_type_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Venue" representedClassName="Venue" syncable="YES">
+        <attribute name="capacity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hours" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icon_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venue_address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venue_category_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venue_desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venue_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venue_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="website" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="VenueCategory" representedClassName="VenueCategory" syncable="YES">
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venue_category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venue_category_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venue_category_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Video" representedClassName="Video" syncable="YES">
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="event_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumb_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="-54" positionY="36" width="128" height="300"/>
+        <element name="MainCategory" positionX="-36" positionY="144" width="128" height="118"/>
+        <element name="Photo" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="TextEntry" positionX="-18" positionY="153" width="128" height="133"/>
+        <element name="Ticket" positionX="-27" positionY="135" width="128" height="118"/>
+        <element name="Venue" positionX="-18" positionY="135" width="128" height="268"/>
+        <element name="VenueCategory" positionX="-18" positionY="144" width="128" height="120"/>
+        <element name="Video" positionX="-27" positionY="135" width="128" height="135"/>
+        <element name="TicketType" positionX="-36" positionY="135" width="128" height="133"/>
+    </elements>
+</model>

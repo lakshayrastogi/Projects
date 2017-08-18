@@ -1,0 +1,13 @@
+platform :ios, '7.0'
+
+target 'Braintreetry' do
+
+pod 'Braintree'
+pod 'AFNetworking'
+
+end
+
+target 'BraintreetryTests' do
+
+end
+

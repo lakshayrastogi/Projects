@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="0UR-1p-Jt4" customClass="MGListCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="312"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="frb-a6-lMQ">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" id="AhF-cs-zNN" customClass="MGSlider">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="298"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" none="YES" selected="YES"/>
+                        <bool key="isElement" value="YES"/>
+                    </accessibility>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gradient-OVERLAY.png" id="eaY-lm-8Fc">
+                    <rect key="frame" x="0.0" y="48" width="320" height="251"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EventName" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" id="bEi-jo-wLt">
+                    <rect key="frame" x="17" y="226" width="267" height="40"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5X9-Sf-rLp">
+                    <rect key="frame" x="281" y="233" width="22" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <state key="normal" backgroundImage="heart.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navbar.png" id="ns1-Rk-kiF">
+                    <rect key="frame" x="0.0" y="309" width="320" height="3"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Location.png" id="2Mj-Rc-9DQ">
+                    <rect key="frame" x="10" y="261" width="15" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$35" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="I8v-NY-dhI">
+                    <rect key="frame" x="277" y="283" width="30" height="19"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event Date and Time" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TJw-pY-xIa">
+                    <rect key="frame" x="17" y="282" width="226" height="21"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Venue Name" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kzd-58-Nzd">
+                    <rect key="frame" x="31" y="261" width="276" height="21"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                    <color key="textColor" red="0.68164822277114212" green="0.92048760720304346" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="buttonFave" destination="5X9-Sf-rLp" id="Vj6-HQ-UkA"/>
+                <outlet property="divider" destination="ns1-Rk-kiF" id="Yiu-Ir-eiB"/>
+                <outlet property="fade" destination="eaY-lm-8Fc" id="neZ-JF-lj8"/>
+                <outlet property="imgViewPic" destination="frb-a6-lMQ" id="XXT-PP-fXU"/>
+                <outlet property="labelDetails" destination="TJw-pY-xIa" id="U51-Yo-Kfd"/>
+                <outlet property="labelExtraInfo" destination="I8v-NY-dhI" id="5G6-gz-hdC"/>
+                <outlet property="labelSubtitle" destination="kzd-58-Nzd" id="eCC-FP-Iqu"/>
+                <outlet property="labelTitle" destination="bEi-jo-wLt" id="Xkm-qt-DEj"/>
+                <outlet property="locationIcon" destination="2Mj-Rc-9DQ" id="nFa-71-HaT"/>
+                <outlet property="slideShow" destination="AhF-cs-zNN" id="Z1M-Za-Yzm"/>
+            </connections>
+            <point key="canvasLocation" x="272" y="325"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Gradient-OVERLAY.png" width="320" height="320"/>
+        <image name="Location.png" width="64" height="64"/>
+        <image name="heart.png" width="64" height="64"/>
+        <image name="navbar.png" width="647" height="68"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

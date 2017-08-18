@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CFA3811D-58BD-4DDE-9555-742112B247A8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tonite</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ACD86C1DB8B396C6EA357846D261BB69DEB914CF</key>
+		<string>https://github.com/gabpaw987/Find</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tonite.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ACD86C1DB8B396C6EA357846D261BB69DEB914CF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gabpaw987/Find</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ACD86C1DB8B396C6EA357846D261BB69DEB914CF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ACD86C1DB8B396C6EA357846D261BB69DEB914CF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Find</string>
+		</dict>
+	</array>
+</dict>
+</plist>
