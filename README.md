@@ -42,3 +42,8 @@ Languages used include JS/CSS, HTML.
 
 This is in a separate repository on my account, that has been forked form a team member's github. It contains a team project for a class that has build a shopping website for a company. 
 Languages used include JS/CSS, HTML.
+
+## Databases Project
+
+This contains a team project for a class. It demonstrates the use of mySQL based querying connected through PHP.
+Languages used include mySQL, PHP, JS/CSS, HTML.
